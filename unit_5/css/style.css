@@ -1,0 +1,49 @@
+body {
+    background: url("http://www.wallpapers4u.org/wp-content/uploads/wedding_rings_rose_4870_1920x1080.jpg");
+    text-align: center;
+    color: rgb(5, 19, 20);
+}
+h1 {
+    text-align: center;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 40px;
+    position: absolute;
+    top: 5px;
+    right: 400px;
+    width: 500px;
+    height: 250px;
+    letter-spacing: 3px;
+}
+#slogan {
+    font-size: 25px;
+    color: rgba(#4e2222, 0.59);
+    letter-spacing: 1.5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+p {
+    font-weight: bolder;
+    font-size: 16px;
+    color: #1F1F1F;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1em;
+}
+nav {
+    background-color: #E8C66A;
+}
+footer {
+    background-color: #FF957E;
+}
+section, div {
+    background-color: #FFE2B8;
+}
+ul {
+    text-align: left;
+    font-weight: 500;
+    font-weight: bolder;
+}
