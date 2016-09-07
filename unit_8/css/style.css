@@ -1,0 +1,102 @@
+body {
+    background: url("http://www.wallpapers4u.org/wp-content/uploads/wedding_rings_rose_4870_1920x1080.jpg");
+    text-align: center;
+    color: rgb(5, 19, 20);
+}
+
+#article {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+#aside {
+    background-color: #E582A2;
+    border: .3em black solid;
+    padding: 1.1em;
+    float: none;
+    margin: auto;
+    width: 80%;
+}
+
+#section {
+    background-color: #E55B88;
+    border: .2em black solid;
+    padding: .8em;
+    float: none;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#navdiv {
+    text-align: center;
+    font-size: 1.2em;
+    margin: auto;
+    width: 80%;
+}
+
+#headerDiv {
+    background-color: #FFED74;
+    border: .1em black solid;
+    padding: 1.5em;
+    width: 100%;
+    margin: auto;
+    font-family: 'Pinyon Script', cursive;
+}
+
+p {
+    font-weight: bolder;
+    font-size: .9em;
+    color: #1F1F1F;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: .1em;
+    line-height: 1em;
+}
+
+nav {
+    background-color: #E8C66A;
+}
+
+footer {
+    background-color: #FF957E;
+    width: 100%;
+    margin: auto;
+}
+
+section, div {
+    background-color: #FFE2B8;
+}
+
+ul {
+    display: inline;
+    overflow: hidden;
+    font-weight: 500;
+    font-weight: bolder;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    float: left;
+    text-align: center;
+}
+
+@@media only screen and (max-width 565px) {
+    footer {
+        font-size: .5em;
+        width: 80%;
+    }
+}
